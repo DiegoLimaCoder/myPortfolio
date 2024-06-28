@@ -8,8 +8,8 @@ Abaixo você pode ver uma imagem demonstrativa do funcionamento do projeto:
 
 ![Demonstração do Projeto](demostracao.png)
 
-link demo: https://diegolimacoder.github.io/myPortfolio/
-
+link demo: [https://diegolimacoder.github.io/myPortfolio/
+](https://portfoliodiegolimacoder.netlify.app/)
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte maneira:
