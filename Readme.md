@@ -8,7 +8,7 @@ Abaixo você pode ver uma imagem demonstrativa do funcionamento do projeto:
 
 ![Demonstração do Projeto](demostracao.png)
 
-link demo: https://diegolimacoder.github.io/portifolio/
+link demo: https://diegolimacoder.github.io/myPortfolio/
 
 ## Estrutura do Projeto
 
