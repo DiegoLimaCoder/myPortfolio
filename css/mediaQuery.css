@@ -1,0 +1,174 @@
+/* Responsividade Navbar */
+
+@media (max-width: 1050px) {
+  .hamburger {
+    display: block;
+    z-index: 1;
+  }
+
+  .nav-list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #181818;
+    clip-path: circle(100px at 90% -15%);
+    transition: 1s ease-out;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+
+    pointer-events: none;
+  }
+
+  .nav-list li:nth-child(5) {
+    margin-bottom: 20%;
+  }
+
+  .nav-list a {
+    font-size: 24px;
+    opacity: 0;
+  }
+
+  .nav-list li:nth-child(1) a {
+    transition: 0.5s 0.2s;
+  }
+
+  .nav-list li:nth-child(2) a {
+    transition: 0.5s 0.4s;
+  }
+
+  .nav-list li:nth-child(3) a {
+    transition: 0.5s 0.6s;
+  }
+  .nav-list li:nth-child(4) a {
+    transition: 0.5s 0.8s;
+  }
+  .nav-list li:nth-child(5) a {
+    transition: 0.5s 0.9;
+  }
+
+  /* Estilos ativos */
+
+  .nav.active .nav-list {
+    clip-path: circle(1500px at 90% -15%);
+    pointer-events: all;
+  }
+
+  .nav.active .nav-list a {
+    opacity: 1;
+  }
+
+  .nav.active .hamburger {
+    position: fixed;
+    top: 26px;
+    right: 16px;
+    border-top-color: transparent;
+  }
+
+  .nav.active .hamburger::before {
+    transform: rotate(135deg);
+  }
+
+  .nav.active .hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+}
+
+/* Fim Responsividade Navbar */
+
+/* Responsividade Main */
+@media (max-width: 1050px) {
+  .main h1 {
+    font-size: 45px;
+  }
+  .main p {
+    font-size: 18px;
+  }
+
+  .btn-to-action {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .main h1 {
+    font-size: 25px;
+  }
+}
+/* Fim Responsividade Main */
+
+/* Responsividade About */
+
+@media (max-width: 1050px) {
+  .about {
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .about div {
+    max-width: 80%;
+  }
+
+  .about div h2 {
+    font-size: 45px;
+  }
+
+  .about img {
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+
+/* Responsividade Skill */
+
+@media (max-width: 1050px) {
+  .tecnologia {
+    width: calc(100% - 70px);
+    margin: 0 auto;
+  }
+}
+
+/* Fim Responsividade  Skill */
+
+/* Reposividade Projects */
+@media (max-width: 1050px) {
+  .prokects img {
+    width: 27.5%;
+  }
+}
+
+/* Reponsividade Contacts */
+
+@media (max-width: 768px) {
+  .contacts h2 {
+    font-size: 28px;
+  }
+
+  #message {
+    height: auto;
+    width: auto;
+  }
+}
+
+/* Responsividade Footer */
+
+@media (max-width: 768px) {
+  footer {
+    font-size: 1rem;
+  }
+  footer .social img {
+    padding-right: 10px;
+  }
+  footer .social img:nth-child(3) {
+    padding-right: 0;
+  }
+}

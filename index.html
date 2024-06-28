@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaQuery.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5a3e110746.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <title>Portfolio Diego</title>
+  </head>
+  <body>
+    <!-- Início do NavBar -->
+    <nav class="nav">
+      <div class="logo-container">
+        <img src="imagens/rocketLogo.gif" alt="Logo" />
+        <span>LIMA</span>
+      </div>
+      <button class="hamburger"></button>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skill">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contacts">Contatos</a></li>
+      </ul>
+    </nav>
+    <!-- Fim do Navbar -->
+
+    <div class="buttonzap">
+      <a
+        href="https://api.whatsapp.com/send?phone=5521990658774"
+        target="_blank"
+      >
+        <i class="fab fa-whatsapp" style="color: #fff"></i>
+      </a>
+    </div>
+    <!-- Início do Main -->
+    <section id="home" class="main">
+      <div>
+        <h1>
+          Olá,
+          <span class="type"></span>
+        </h1>
+        <p>Desenvolvedor FullStack Web</p>
+        <div class="btn-to-action">
+          <a
+            href="https://github.com/DiegoLimaCoder"
+            target="_blank"
+            rel="externos"
+          >
+            <button class="call-to-action black">
+              Ver projetos <i class="fa-brands fa-github"></i>
+            </button>
+          </a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/11KX1vNLAI24A2q2CMq405YqjJu8qWz0P/view?usp=sharing"
+          >
+            <button class="call-to-action red">
+              Baixar currículo<i class="fa fa-thin fa-download"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Fim do Main -->
+
+    <!-- Início About -->
+    <section id="about" class="about">
+      <div data-aos="fade-right" data-aos-duration="3000">
+        <h2>Sobre</h2>
+        <p>
+          Olá! Sou Diego, um entusiasta da programação dedicado a criar soluções
+          inovadoras por meio do código. Com 1 ano de experiência no
+          desenvolvimento de software, mergulhei em uma variedade de projetos
+          desafiadores, desde aplicativos web até sistemas complexos de
+          back-end. Estou constantemente expandindo meu conhecimento em
+          linguagens de programação e frameworks, buscando sempre oferecer as
+          melhores soluções técnicas para os problemas que enfrento.
+        </p>
+      </div>
+      <img
+        data-aos="fade-left"
+        data-aos-duration="3000"
+        src="imagens/foto.jfif"
+        alt="foto do programador Diego"
+      />
+    </section>
+    <!-- Fim do About -->
+
+    <!-- Início Skill -->
+    <section id="skill" class="skill">
+      <div>
+        <h2>Habilidades</h2>
+
+        <div class="tecnologia">
+          <span>Front-End</span>
+          <div class="stack">
+            <div class="card">
+              <img src="imagens/Icons/html5.svg" alt="Conhecimento em HTML5" />
+            </div>
+            <div class="card">
+              <img src="imagens/Icons/css3.svg" alt="Conhecimento em CSS3" />
+            </div>
+            <div class="card">
+              <img
+                src="imagens/Icons/JavaScript.svg"
+                alt="Conhecimento em HTML5"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="imagens/Icons/ReactJs.svg"
+                alt="Conhecimento em ReactJS"
+              />
+            </div>
+          </div>
+          <span>Back-End</span>
+          <div class="stack">
+            <div class="card">
+              <img
+                src="imagens/Icons/Csharp.svg"
+                alt="Conhecimento em Csharp"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="imagens/Icons/dotnet.svg"
+                alt="Conhecimento em dotnet"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="imagens/Icons/SQL.svg"
+                alt="Conhecimento em SQL server"
+              />
+            </div>
+            <div class="card">
+              <img
+                src="imagens/Icons/Docker.svg"
+                alt="Conhecimento em Docker"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fim Skill -->
+
+    <!-- Inicio Projects -->
+    <section id="projects" class="projects">
+      <h2>Meus Projetos</h2>
+      <p>Conheça meus últimos projetos</p>
+
+      <div class="projects-list">
+        <img src="imagens/projetos/projeto1.png" alt="" />
+        <img src="imagens/projetos/projeto2.png" alt="" />
+        <img src="imagens/projetos/projeto3.png" alt="" />
+      </div>
+      <div class="projects-list">
+        <img src="imagens/projetos/projeto3.png" alt="" />
+        <img src="imagens/projetos/projeto2.png" alt="" />
+        <img src="imagens/projetos/projeto1.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Fim Projects -->
+
+    <!-- Início Contacts -->
+    <section id="contacts" class="contacts">
+      <div>
+        <h2>Contatos</h2>
+        <form
+          method="POST"
+          action="https://formsubmit.co/diegogoncalveslima21@gmail.com"
+        >
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Seu nome"
+            class="form-input"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Seu email"
+            class="form-input"
+            required
+          />
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/index.html"
+          />
+          <textarea
+            name="message"
+            id="message"
+            rows="5"
+            placeholder="Sua mensagem"
+            class="form-input"
+            required
+          ></textarea>
+          <button class="btn-form">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <!-- FIm contacts -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="social">
+        <a target="_blank" href="mailto:diegogoncalveslima21@gmail.com"
+          ><img src="imagens/Icons/Vector-email.png" alt=""
+        /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/diegolima-dev/"
+          ><img src="imagens/Icons/Vector-linkedIn.png" alt=""
+        /></a>
+        <a target="_blank" href="https://github.com/DiegoLimaCoder"
+          ><img src="imagens/Icons/logotipo github.png" alt=""
+        /></a>
+      </div>
+
+      <span>Copyright 2023</span>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
